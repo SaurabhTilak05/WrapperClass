@@ -14,8 +14,7 @@ public class ConvertStringToDoubleAndMul {
 		System.out.println("Enetr value to multiply");
 		int mal=s.nextInt();
 		Double val=Double.valueOf(srt);
-		 System.out.println("double values is:  "+val);	
-		 System.out.println("Multiplication is:  "+(val*mal));
+		System.out.println("double values is:  "+val);	
+		System.out.println("Multiplication is:  "+(val*mal));
 	}
-
 }
