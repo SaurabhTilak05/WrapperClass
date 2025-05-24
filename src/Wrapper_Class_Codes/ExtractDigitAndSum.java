@@ -6,7 +6,6 @@ public class ExtractDigitAndSum {
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enert String ");//a1s2d3
 		String str=s.nextLine();
-		
 		int sum=0;
 		for(int i=0;i<str.length();i++)
 		{
@@ -14,8 +13,6 @@ public class ExtractDigitAndSum {
 				sum=sum+(str.charAt(i)-48);
 			}
 		}
-
 		System.out.println(sum);
 	}
-
 }
